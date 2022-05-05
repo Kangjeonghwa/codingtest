@@ -14,7 +14,7 @@ public class CountNum {
         int Mul=A*B*C;
         String str=String.valueOf(Mul);
         
-        for(int i=0;i<9;i++){
+        for(int i=0;i<str.length();i++){
             String b=str.substring(i,i+1);
             int a=Integer.parseInt(b);
             arr1[a]++;
